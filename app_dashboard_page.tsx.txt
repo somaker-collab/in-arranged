@@ -1,0 +1,6 @@
+import { redirect } from 'next/navigation';
+
+export default function DashboardRedirect() {
+  // Redirects the empty dashboard folder back to the main dashboard (app/page.tsx)
+  redirect('/');
+}
